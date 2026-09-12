@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      ollama:
+        condition: service_healthy
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    command: ["python", "main.py", "--transcript", "./data/sample_transcript.pdf", "--goal", "Plan my next two semesters to finish the AI minor."]
+
+
+  ollama:
+    image: ollama/ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    healthcheck:
+      test: ["CMD-SHELL", "ollama list || exit 1"]
+      interval: 5s
+      timeout: 10s
+      retries: 5
+      start_period: 10s
+
+volumes:
+  ollama_data:
