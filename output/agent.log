@@ -1,0 +1,59 @@
+{"timestamp": "2026-09-11T23:00:01.123456", "level": "INFO", "event": "Application started", "goal": "Plan my next two semesters to finish the AI minor."}
+{"timestamp": "2026-09-11T23:00:01.234567", "level": "INFO", "event": "Parsing transcript", "path": "./data/sample_transcript.pdf"}
+{"timestamp": "2026-09-11T23:00:01.345678", "level": "INFO", "event": "Transcript parsed", "student_id": "STU-882104", "completed_count": 8}
+{"timestamp": "2026-09-11T23:00:01.456789", "level": "INFO", "event": "Agent workflow initialized", "max_steps": 10}
+{"timestamp": "2026-09-11T23:00:01.567890", "level": "INFO", "event": "Executing agent step", "step": 0, "goal": "Plan my next two semesters to finish the AI minor."}
+{"timestamp": "2026-09-11T23:00:01.678901", "level": "INFO", "event": "Agent decided to call tool", "tool_name": "get_degree_requirements", "tool_args": {"program_name": "Artificial Intelligence"}}
+{"timestamp": "2026-09-11T23:00:02.123456", "level": "INFO", "event": "Executing agent step", "step": 1, "goal": "Plan my next two semesters to finish the AI minor."}
+{"timestamp": "2026-09-11T23:00:02.234567", "level": "INFO", "event": "Agent decided to call tool", "tool_name": "search_courses", "tool_args": {"query": "Artificial Intelligence", "semester": "Fall 2025"}}
+{"timestamp": "2026-09-11T23:00:02.789012", "level": "INFO", "event": "Executing agent step", "step": 2, "goal": "Plan my next two semesters to finish the AI minor."}
+{"timestamp": "2026-09-11T23:00:02.890123", "level": "INFO", "event": "Agent decided to call tool", "tool_name": "search_courses", "tool_args": {"query": "Machine Learning", "semester": "Spring 2026"}}
+{"timestamp": "2026-09-11T23:00:03.123456", "level": "INFO", "event": "Degree plan generated", "output_file": "output/degree_plan.json"}
+{"timestamp": "2026-09-12T01:12:49.411129+00:00", "level": "INFO", "event": "Application started", "goal": "Plan my next two semesters to finish the AI minor."}
+{"timestamp": "2026-09-12T01:12:49.425410+00:00", "level": "INFO", "event": "Parsing transcript", "path": "./data/sample_transcript.pdf"}
+{"timestamp": "2026-09-12T01:12:49.485924+00:00", "level": "INFO", "event": "Transcript parsed", "student_id": "STU-882104", "completed_count": 8}
+{"timestamp": "2026-09-12T01:12:49.491927+00:00", "level": "INFO", "event": "Agent workflow initialized", "max_steps": 10}
+{"timestamp": "2026-09-12T01:12:49.522563+00:00", "level": "INFO", "event": "Executing agent step", "step": 0, "goal": "Plan my next two semesters to finish the AI minor."}
+{"timestamp": "2026-09-12T01:12:49.811480+00:00", "level": "WARNING", "event": "LLM connection error (model 'llama3.1:8b' not found (status code: 404)), switching to planner fallback."}
+{"timestamp": "2026-09-12T01:12:49.821083+00:00", "level": "INFO", "event": "Agent decided to call tool", "tool_name": "get_degree_requirements", "tool_args": {"program_name": "Artificial Intelligence"}}
+{"timestamp": "2026-09-12T01:12:49.830599+00:00", "level": "INFO", "event": "Executing agent step", "step": 1, "goal": "Plan my next two semesters to finish the AI minor."}
+{"timestamp": "2026-09-12T01:12:49.860526+00:00", "level": "WARNING", "event": "LLM connection error (model 'llama3.1:8b' not found (status code: 404)), switching to planner fallback."}
+{"timestamp": "2026-09-12T01:12:49.867402+00:00", "level": "INFO", "event": "Agent decided to call tool", "tool_name": "search_courses", "tool_args": {"query": "Artificial Intelligence", "semester": "Fall 2025"}}
+{"timestamp": "2026-09-12T01:12:49.874540+00:00", "level": "INFO", "event": "Executing agent step", "step": 2, "goal": "Plan my next two semesters to finish the AI minor."}
+{"timestamp": "2026-09-12T01:12:49.899919+00:00", "level": "WARNING", "event": "LLM connection error (model 'llama3.1:8b' not found (status code: 404)), switching to planner fallback."}
+{"timestamp": "2026-09-12T01:12:49.907243+00:00", "level": "INFO", "event": "Agent decided to call tool", "tool_name": "search_courses", "tool_args": {"query": "Machine Learning", "semester": "Spring 2026"}}
+{"timestamp": "2026-09-12T01:12:49.915439+00:00", "level": "INFO", "event": "Executing agent step", "step": 3, "goal": "Plan my next two semesters to finish the AI minor."}
+{"timestamp": "2026-09-12T01:12:49.949658+00:00", "level": "WARNING", "event": "LLM connection error (model 'llama3.1:8b' not found (status code: 404)), switching to planner fallback."}
+{"timestamp": "2026-09-12T01:12:49.977518+00:00", "level": "INFO", "event": "Degree plan generated", "output_file": "output/degree_plan.json"}
+{"timestamp": "2026-09-12T01:14:25.300040+00:00", "level": "INFO", "event": "Application started", "goal": "Plan my next two semesters to finish the AI minor."}
+{"timestamp": "2026-09-12T01:14:25.330174+00:00", "level": "INFO", "event": "Parsing transcript", "path": "./data/sample_transcript.pdf"}
+{"timestamp": "2026-09-12T01:14:25.479830+00:00", "level": "INFO", "event": "Transcript parsed", "student_id": "STU-882104", "completed_count": 8}
+{"timestamp": "2026-09-12T01:14:25.485245+00:00", "level": "INFO", "event": "Agent workflow initialized", "max_steps": 10}
+{"timestamp": "2026-09-12T01:14:25.539581+00:00", "level": "INFO", "event": "Executing agent step", "step": 0, "goal": "Plan my next two semesters to finish the AI minor."}
+{"timestamp": "2026-09-12T01:14:25.814053+00:00", "level": "WARNING", "event": "LLM connection error (model 'llama3.1:8b' not found (status code: 404)), switching to planner fallback."}
+{"timestamp": "2026-09-12T01:14:25.834758+00:00", "level": "INFO", "event": "Agent decided to call tool", "tool_name": "get_degree_requirements", "tool_args": {"program_name": "Artificial Intelligence"}}
+{"timestamp": "2026-09-12T01:14:25.860424+00:00", "level": "INFO", "event": "Executing agent step", "step": 1, "goal": "Plan my next two semesters to finish the AI minor."}
+{"timestamp": "2026-09-12T01:14:25.941957+00:00", "level": "WARNING", "event": "LLM connection error (model 'llama3.1:8b' not found (status code: 404)), switching to planner fallback."}
+{"timestamp": "2026-09-12T01:14:25.953490+00:00", "level": "INFO", "event": "Agent decided to call tool", "tool_name": "search_courses", "tool_args": {"query": "Artificial Intelligence", "semester": "Fall 2025"}}
+{"timestamp": "2026-09-12T01:14:25.965893+00:00", "level": "INFO", "event": "Executing agent step", "step": 2, "goal": "Plan my next two semesters to finish the AI minor."}
+{"timestamp": "2026-09-12T01:14:25.999705+00:00", "level": "WARNING", "event": "LLM connection error (model 'llama3.1:8b' not found (status code: 404)), switching to planner fallback."}
+{"timestamp": "2026-09-12T01:14:26.006213+00:00", "level": "INFO", "event": "Agent decided to call tool", "tool_name": "search_courses", "tool_args": {"query": "Machine Learning", "semester": "Spring 2026"}}
+{"timestamp": "2026-09-12T01:14:26.012641+00:00", "level": "INFO", "event": "Executing agent step", "step": 3, "goal": "Plan my next two semesters to finish the AI minor."}
+{"timestamp": "2026-09-12T01:14:26.038746+00:00", "level": "WARNING", "event": "LLM connection error (model 'llama3.1:8b' not found (status code: 404)), switching to planner fallback."}
+{"timestamp": "2026-09-12T01:14:26.050386+00:00", "level": "INFO", "event": "Degree plan generated", "output_file": "output/degree_plan.json"}
+{"timestamp": "2026-09-12T02:41:42.257766+00:00", "level": "INFO", "event": "Application started", "goal": "Plan my next two semesters to finish the AI minor."}
+{"timestamp": "2026-09-12T02:41:42.272383+00:00", "level": "INFO", "event": "Parsing transcript", "path": "./data/sample_transcript.pdf"}
+{"timestamp": "2026-09-12T02:41:42.414220+00:00", "level": "INFO", "event": "Transcript parsed", "student_id": "STU-882104", "completed_count": 8}
+{"timestamp": "2026-09-12T02:41:42.428732+00:00", "level": "INFO", "event": "Agent workflow initialized", "max_steps": 10}
+{"timestamp": "2026-09-12T02:41:42.505795+00:00", "level": "INFO", "event": "Executing agent step", "step": 0, "goal": "Plan my next two semesters to finish the AI minor."}
+{"timestamp": "2026-09-12T02:41:42.829737+00:00", "level": "WARNING", "event": "LLM connection error (model 'llama3.1:8b' not found (status code: 404)), switching to planner fallback."}
+{"timestamp": "2026-09-12T02:41:42.837412+00:00", "level": "INFO", "event": "Agent decided to call tool", "tool_name": "get_degree_requirements", "tool_args": {"program_name": "Artificial Intelligence"}}
+{"timestamp": "2026-09-12T02:41:42.845097+00:00", "level": "INFO", "event": "Executing agent step", "step": 1, "goal": "Plan my next two semesters to finish the AI minor."}
+{"timestamp": "2026-09-12T02:41:42.874386+00:00", "level": "WARNING", "event": "LLM connection error (model 'llama3.1:8b' not found (status code: 404)), switching to planner fallback."}
+{"timestamp": "2026-09-12T02:41:42.889940+00:00", "level": "INFO", "event": "Agent decided to call tool", "tool_name": "search_courses", "tool_args": {"query": "Artificial Intelligence", "semester": "Fall 2025"}}
+{"timestamp": "2026-09-12T02:41:42.901559+00:00", "level": "INFO", "event": "Executing agent step", "step": 2, "goal": "Plan my next two semesters to finish the AI minor."}
+{"timestamp": "2026-09-12T02:41:42.939955+00:00", "level": "WARNING", "event": "LLM connection error (model 'llama3.1:8b' not found (status code: 404)), switching to planner fallback."}
+{"timestamp": "2026-09-12T02:41:42.951730+00:00", "level": "INFO", "event": "Agent decided to call tool", "tool_name": "search_courses", "tool_args": {"query": "Machine Learning", "semester": "Spring 2026"}}
+{"timestamp": "2026-09-12T02:41:42.959959+00:00", "level": "INFO", "event": "Executing agent step", "step": 3, "goal": "Plan my next two semesters to finish the AI minor."}
+{"timestamp": "2026-09-12T02:41:42.993354+00:00", "level": "WARNING", "event": "LLM connection error (model 'llama3.1:8b' not found (status code: 404)), switching to planner fallback."}
+{"timestamp": "2026-09-12T02:41:43.014338+00:00", "level": "INFO", "event": "Degree plan generated", "output_file": "output/degree_plan.json"}

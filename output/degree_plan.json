@@ -1,0 +1,130 @@
+{
+  "student_id": "STU-882104",
+  "completed_courses": [
+    {
+      "course_code": "CS101",
+      "title": "Introduction to Computer Science",
+      "credits": 4,
+      "schedule": []
+    },
+    {
+      "course_code": "MATH201",
+      "title": "Calculus I",
+      "credits": 4,
+      "schedule": []
+    },
+    {
+      "course_code": "ENG101",
+      "title": "College Writing and Composition",
+      "credits": 3,
+      "schedule": []
+    },
+    {
+      "course_code": "CS102",
+      "title": "Data Structures and Algorithms",
+      "credits": 4,
+      "schedule": []
+    },
+    {
+      "course_code": "MATH202",
+      "title": "Linear Algebra and Differential Eq",
+      "credits": 4,
+      "schedule": []
+    },
+    {
+      "course_code": "PHYS101",
+      "title": "General Physics with Laboratory",
+      "credits": 4,
+      "schedule": []
+    },
+    {
+      "course_code": "CS201",
+      "title": "Computer Systems and Architecture",
+      "credits": 3,
+      "schedule": []
+    },
+    {
+      "course_code": "MATH301",
+      "title": "Probability and Statistics for CS",
+      "credits": 3,
+      "schedule": []
+    }
+  ],
+  "planned_semesters": [
+    {
+      "semester_name": "Fall 2025",
+      "courses": [
+        {
+          "course_code": "CS301",
+          "title": "Introduction to Artificial Intelligence",
+          "credits": 3,
+          "schedule": [
+            [
+              "Mon",
+              "10:00",
+              "11:30"
+            ],
+            [
+              "Wed",
+              "10:00",
+              "11:30"
+            ]
+          ]
+        },
+        {
+          "course_code": "CS310",
+          "title": "Ethics in Artificial Intelligence",
+          "credits": 3,
+          "schedule": [
+            [
+              "Fri",
+              "13:00",
+              "16:00"
+            ]
+          ]
+        }
+      ],
+      "max_credits": 18
+    },
+    {
+      "semester_name": "Spring 2026",
+      "courses": [
+        {
+          "course_code": "CS302",
+          "title": "Machine Learning",
+          "credits": 3,
+          "schedule": [
+            [
+              "Tue",
+              "13:00",
+              "14:30"
+            ],
+            [
+              "Thu",
+              "13:00",
+              "14:30"
+            ]
+          ]
+        },
+        {
+          "course_code": "CS304",
+          "title": "Natural Language Processing",
+          "credits": 3,
+          "schedule": [
+            [
+              "Tue",
+              "10:00",
+              "11:30"
+            ],
+            [
+              "Thu",
+              "10:00",
+              "11:30"
+            ]
+          ]
+        }
+      ],
+      "max_credits": 18
+    }
+  ]
+}
